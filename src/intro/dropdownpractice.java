@@ -24,6 +24,7 @@ public class dropdownpractice {
           i++;
 	         }
         driver.findElement(By.id("btnclosepaxoption")).click();
+        System.out.println(driver.findElement(By.id("divpaxinfo")).getText());
 	}
 
 	
